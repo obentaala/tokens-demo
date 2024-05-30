@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./styles/index.css";
 
 const App: React.FC = () => {
+  const [colorValue, setColorValue] = useState("");
+
+  useEffect(() => {
+    const root = document.documentElement;
+    const color = getComputedStyle(root)
+      .getPropertyValue("--colorFgSuccess")
+      .trim();
+    setColorValue(color);
+  }, []);
+
   return (
     <div
       className="App"
@@ -11,8 +21,9 @@ const App: React.FC = () => {
         borderColor: "var(--colorWarning700)",
       }}
     >
-      <p style={{ color: "var(--colorBlueDark800)" }}>
-        This is a paragraph with color defined as --colorBlueDark800.
+      <p style={{ color: "var(--colorFgSuccess)" }}>
+        This is a paragraph with color defined as --colorFgSuccess =={" "}
+        {colorValue}.
       </p>
       <header
         className="typographyDisplayDefault"
