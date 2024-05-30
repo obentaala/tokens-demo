@@ -1,0 +1,143 @@
+.typographyDisplayDefault {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--measureFontSizeFontSizeFontsize7);
+  line-height: var(--measureLineHeightLineHeightLineheights0);
+  letter-spacing: var(--measureLetterSpacingLetterSpacingLetterspacing0);
+  text-indent: 0px;
+  margin-bottom: var(
+    --measureParagraphSpacingParagraphSpacingParagraphspacing0
+  );
+}
+
+.typographyTitleLarge {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--measureFontSizeFontSizeFontsize6);
+  line-height: var(--measureLineHeightLineHeightLineheights0);
+  letter-spacing: var(--measureLetterSpacingLetterSpacingLetterspacing0);
+  text-indent: 0px;
+  margin-bottom: var(
+    --measureParagraphSpacingParagraphSpacingParagraphspacing0
+  );
+}
+
+.typographyTitleMedium {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--measureFontSizeFontSizeFontsize5);
+  line-height: var(--measureLineHeightLineHeightLineheights0);
+  letter-spacing: var(--measureLetterSpacingLetterSpacingLetterspacing0);
+  text-indent: 0px;
+  margin-bottom: var(
+    --measureParagraphSpacingParagraphSpacingParagraphspacing0
+  );
+}
+
+.typographyTitleSmall {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--measureFontSizeFontSizeFontsize4);
+  line-height: var(--measureLineHeightLineHeightLineheights0);
+  letter-spacing: var(--measureLetterSpacingLetterSpacingLetterspacing0);
+  text-indent: 0px;
+  margin-bottom: var(
+    --measureParagraphSpacingParagraphSpacingParagraphspacing0
+  );
+}
+
+.typographyBodyLarge {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--measureFontSizeFontSizeFontsize3);
+  line-height: var(--measureLineHeightLineHeightLineheights1);
+  letter-spacing: var(--measureLetterSpacingLetterSpacingLetterspacing0);
+  text-indent: 0px;
+  margin-bottom: var(
+    --measureParagraphSpacingParagraphSpacingParagraphspacing0
+  );
+}
+
+.typographyBodyLargeBold {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--measureFontSizeFontSizeFontsize3);
+  line-height: var(--measureLineHeightLineHeightLineheights1);
+  letter-spacing: var(--measureLetterSpacingLetterSpacingLetterspacing0);
+  text-indent: 0px;
+  margin-bottom: var(
+    --measureParagraphSpacingParagraphSpacingParagraphspacing0
+  );
+}
+
+.typographyBodyMedium {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--measureFontSizeFontSizeFontsize2);
+  line-height: var(--measureLineHeightLineHeightLineheights1);
+  letter-spacing: var(--measureLetterSpacingLetterSpacingLetterspacing0);
+  text-indent: 0px;
+  margin-bottom: var(
+    --measureParagraphSpacingParagraphSpacingParagraphspacing0
+  );
+}
+
+.typographyBodyMediumBold {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--measureFontSizeFontSizeFontsize2);
+  line-height: var(--measureLineHeightLineHeightLineheights1);
+  letter-spacing: var(--measureLetterSpacingLetterSpacingLetterspacing0);
+  text-indent: 0px;
+  margin-bottom: var(
+    --measureParagraphSpacingParagraphSpacingParagraphspacing0
+  );
+}
+
+.typographyBodySmall {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--measureFontSizeFontSizeFontsize1);
+  line-height: var(--measureLineHeightLineHeightLineheights2);
+  letter-spacing: var(--measureLetterSpacingLetterSpacingLetterspacing0);
+  text-indent: 0px;
+  margin-bottom: var(
+    --measureParagraphSpacingParagraphSpacingParagraphspacing0
+  );
+}
+
+.typographyBodySmallBold {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--measureFontSizeFontSizeFontsize1);
+  line-height: var(--measureLineHeightLineHeightLineheights2);
+  letter-spacing: var(--measureLetterSpacingLetterSpacingLetterspacing0);
+  text-indent: 0px;
+  margin-bottom: var(
+    --measureParagraphSpacingParagraphSpacingParagraphspacing0
+  );
+}
+
+.typographySubtextCaption {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--measureFontSizeFontSizeFontsize0);
+  line-height: var(--measureLineHeightLineHeightLineheights3);
+  letter-spacing: var(--measureLetterSpacingLetterSpacingLetterspacing0);
+  text-indent: 0px;
+  text-transform: uppercase;
+  margin-bottom: var(
+    --measureParagraphSpacingParagraphSpacingParagraphspacing0
+  );
+}

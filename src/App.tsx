@@ -1,26 +1,50 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./styles/index.css";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div
+      className="App"
+      style={{
+        padding: "100px",
+        border: "12px solid",
+        borderColor: "var(--colorWarning700)",
+      }}
+    >
+      <p style={{ color: "var(--colorBlueDark800)" }}>
+        This is a paragraph with color defined as --colorBlueDark800.
+      </p>
+      <header
+        className="typographyDisplayDefault"
+        style={{ backgroundColor: "var(--colorColorOverlay)" }}
+      >
+        Header
       </header>
+      <main className="typographyBodyMedium">
+        <p>This is a simple body text using the bodyMedium typography style.</p>
+        {/* Ajout de la marge basse au bouton */}
+        <button
+          style={{
+            boxShadow: "var(--shadowFocusPrimary)",
+            marginBottom: "20px",
+          }}
+        >
+          Mon Bouton
+        </button>
+      </main>
+
+      <footer
+        className="typographySubtextCaption"
+        style={{
+          backgroundColor: "var(--colorSecondary800)",
+          color: "var(--colorFgWeak)",
+          padding: "16px",
+        }}
+      >
+        Footer
+      </footer>
     </div>
   );
-}
+};
 
 export default App;
